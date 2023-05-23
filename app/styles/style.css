@@ -1,0 +1,26 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:after,
+*::before {
+  box-sizing: inherit;
+}
+
+.main {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.success {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.error {
+    background-color: #f44336; /* Red */
+    color: white;
+}

@@ -1,0 +1,27 @@
+{
+  "platform-version": "2.3",
+  "product": {
+    "freshdesk": {
+      "location": {
+        "ticket_sidebar": {
+          "url": "index.html",
+          "icon": "styles/images/icon.svg"
+        }
+      }
+    }
+  },
+  "description": "An app to create a deal in Freshsales from a Freshdesk ticket.",
+  "version": "1.0.0",
+  "oauth2": {},
+  "external-install": {},
+  "server-methods": [
+    "checkContactExists",
+    "createContactInFreshsales",
+    "createDealInFreshsales",
+    "getContactFromFreshdesk"
+  ],
+  "engines": {
+    "node": "18.13.0",
+    "fdk": "9.0.1"
+  }
+}
